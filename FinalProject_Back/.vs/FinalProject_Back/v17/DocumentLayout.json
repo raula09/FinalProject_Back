@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Program.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Program.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Program.cs",
+              "RelativeToolTip": "FinalProject_Back\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T18:45:06.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
