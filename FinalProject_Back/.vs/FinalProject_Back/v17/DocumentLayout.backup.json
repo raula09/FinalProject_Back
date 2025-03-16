@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,32 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "FinalProject_Back\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T22:55:51.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Controllers\\ProductController.cs",
               "RelativeToolTip": "FinalProject_Back\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwEkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T20:11:30.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\appsettings.json",
               "RelativeDocumentMoniker": "FinalProject_Back\\appsettings.json",
@@ -76,23 +59,25 @@
               "RelativeToolTip": "FinalProject_Back\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-14T19:52:45.983Z"
+              "WhenOpened": "2025-03-14T19:52:45.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\Product.cs",
               "RelativeDocumentMoniker": "FinalProject_Back\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\Product.cs",
               "RelativeToolTip": "FinalProject_Back\\Models\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:35:55.075Z"
+              "WhenOpened": "2025-03-14T19:35:55.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\Category.cs",
               "RelativeDocumentMoniker": "FinalProject_Back\\Models\\Category.cs",
@@ -100,11 +85,12 @@
               "RelativeToolTip": "FinalProject_Back\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:39:51.899Z"
+              "WhenOpened": "2025-03-14T19:39:51.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\User.cs",
               "RelativeDocumentMoniker": "FinalProject_Back\\Models\\User.cs",
@@ -116,15 +102,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Program.cs",
               "RelativeDocumentMoniker": "FinalProject_Back\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Program.cs",
               "RelativeToolTip": "FinalProject_Back\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T18:45:06.42Z"
+              "WhenOpened": "2025-03-14T18:45:06.42Z",
+              "EditorCaption": ""
             }
           ]
         }

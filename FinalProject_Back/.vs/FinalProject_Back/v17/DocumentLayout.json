@@ -1,33 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\models\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finalproject_back\\finalproject_back\\finalproject_back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\controllers\\authentification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\authentification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\models\\verifyemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\verifyemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\pc\\desktop\\finall\\finalproject_back\\finalproject_back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -38,40 +46,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "FinalProject_Back\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Authentification.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Controllers\\Authentification.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\Authentification.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Controllers\\Authentification.cs",
+              "RelativeToolTip": "FinalProject_Back\\Controllers\\Authentification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T22:55:51.396Z",
+              "WhenOpened": "2025-03-16T19:42:46.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerifyEmail.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\VerifyEmail.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\VerifyEmail.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\VerifyEmail.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\VerifyEmail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T19:42:15.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "FinalProject_Back\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
+              "Title": "SignIn.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\SignIn.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\SignIn.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\SignIn.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\SignIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T20:11:30.321Z"
+              "WhenOpened": "2025-03-16T19:41:44.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "FinalProject_Back\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA9wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:11:30.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\appsettings.json",
               "RelativeDocumentMoniker": "FinalProject_Back\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\appsettings.json",
               "RelativeToolTip": "FinalProject_Back\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -81,49 +116,63 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\Product.cs",
               "RelativeDocumentMoniker": "FinalProject_Back\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\Product.cs",
               "RelativeToolTip": "FinalProject_Back\\Models\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:35:55.075Z"
+              "WhenOpened": "2025-03-14T19:35:55.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\Category.cs",
               "RelativeDocumentMoniker": "FinalProject_Back\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\Category.cs",
               "RelativeToolTip": "FinalProject_Back\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:39:51.899Z"
+              "WhenOpened": "2025-03-14T19:39:51.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Models\\User.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T19:36:48.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\User.cs",
-              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Models\\User.cs",
-              "RelativeToolTip": "FinalProject_Back\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:36:48.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Program.cs",
               "RelativeDocumentMoniker": "FinalProject_Back\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\FinalProject_Back\\FinalProject_Back\\FinalProject_Back\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\finall\\FinalProject_Back\\FinalProject_Back\\Program.cs",
               "RelativeToolTip": "FinalProject_Back\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T18:45:06.42Z"
+              "WhenOpened": "2025-03-14T18:45:06.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

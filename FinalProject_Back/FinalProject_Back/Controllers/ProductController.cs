@@ -1,45 +1,34 @@
-﻿using Azure;
-using FinalProject_Back.Models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Text;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
 using System.Text.Json;
+using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using FinalProject_Back.Models;
+
 
 namespace FinalProject_Back.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class ProductController : ControllerBase
     {
         private readonly HttpClient _client;
 
+
         public ProductController(HttpClient client)
         {
             _client = client;
-            
+
         }
 
-
-        [HttpGet("Get All Products")]
-        public async Task<IActionResult> GetAllProducts()
-        {
-            var Products = await _client.GetAsync("https://api.everrest.educata.dev/shop/products/all");
-            var ProductsList = await Products.Content.ReadAsStringAsync();
-            if (ProductsList == null)
-            {
-                return NotFound();
-            }
-            return Ok(ProductsList);
-        }
-
-        [HttpGet("Get Product By {id}")]
+        [HttpGet("Get Products By{id}")]
         public async Task<IActionResult> GetProductById(string id)
         {
             var productResponse = await _client.GetAsync($"https://api.everrest.educata.dev/shop/products/id/{id}");
             var productDetails = await productResponse.Content.ReadAsStringAsync();
 
-            if (productDetails == null)
+            if (string.IsNullOrEmpty(productDetails))
             {
                 return NotFound();
             }
@@ -47,38 +36,69 @@ namespace FinalProject_Back.Controllers
             return Ok(productDetails);
         }
 
-        [HttpPost("Add Product")]
-        public async Task<IActionResult> AddProduct(Product product )
-        {
-            var Json = JsonSerializer.Serialize(product);
-            var stringContent = new StringContent(Json, Encoding.UTF8, "application/json");
-            var responce = await _client.PostAsync("https://api.everrest.educata.dev/shop/products", stringContent);
-            if (responce == null)
-            {
-                return NotFound();
-            }
-            return Ok(responce);
-        }
 
-        [HttpPatch("Update Product")]
-        public async Task<IActionResult> UpdateProduct(string id, Product product)
+
+        [HttpGet("GetAll")]
+        public async Task<IActionResult> GetAllProducts()
         {
-            product.Id = id;
-            var json = JsonSerializer.Serialize(product);
-            var stringContent = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = await _client.PatchAsync($"https://api.everrest.educata.dev/shop/products/id/{id}", stringContent);
-            var ListedResponce = await response.Content.ReadAsStringAsync();
-            if (ListedResponce == null)
+            var response = await _client.GetAsync("https://api.everrest.educata.dev/shop/products/all");
+
+            if (response.IsSuccessStatusCode)
             {
-                return NotFound();
+                var content = await response.Content.ReadAsStringAsync();
+                Response.Headers["Content-Length"] = content.Length.ToString();
+                return Content(content, "application/json");
             }
-            return Ok(ListedResponce);
+
+            return NotFound();
         }
 
 
+        [HttpDelete("DeleteProduct")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var response = await _client.DeleteAsync($"https://api.everrest.educata.dev/shop/products/id/{id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                return NoContent();
+            }
+
+            return NotFound();
+        }
+
+        [HttpPost("Create")]
+        public async Task<IActionResult> CreateProduct(Product product)
+        {
+
+            if (product == null)
+            {
+                return BadRequest("Product is null.");
+            }
+
+            using var client = new HttpClient();
 
 
-        
+            var response = await client.PostAsJsonAsync("https://api.everrest.educata.dev/shop/products", product);
+
+            if (response.IsSuccessStatusCode)
+            {
+
+                var result = await response.Content.ReadAsStringAsync();
+                return Content(result, "application/json");
+            }
+
+
+            return StatusCode((int)response.StatusCode, await response.Content.ReadAsStringAsync());
+        }
+
+
+
+
 
     }
+
+
+
 }
+
