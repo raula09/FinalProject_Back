@@ -14,31 +14,29 @@ namespace FinalProject_Back.Controllers
     public class ProductController : ControllerBase
     {
         private readonly HttpClient _client;
-        private readonly AppDbContext _context;
 
-        public ProductController(HttpClient client, AppDbContext context)
+
+        public ProductController(HttpClient client)
         {
             _client = client;
-            _context = context;
-        }
-        [HttpGet("categories/all")]
-        public async Task<IActionResult> GetCategoriesAll()
-        {
-            var categories = await _context.Categories.ToListAsync();
-            return Ok(categories);
-        }
-        
 
-        [HttpGet("categories/{id}")]
-        public async Task<IActionResult> GetCategoryById(string id)
-        {
-            var category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
-            if (category == null)
-            {
-                return NotFound(new { message = "Category not found." });
-            }
-            return Ok(category);
         }
+
+        [HttpGet("Get Products By{id}")]
+        public async Task<IActionResult> GetProductById(string id)
+        {
+            var productResponse = await _client.GetAsync($"https://api.everrest.educata.dev/shop/products/id/{id}");
+            var productDetails = await productResponse.Content.ReadAsStringAsync();
+
+            if (string.IsNullOrEmpty(productDetails))
+            {
+                return NotFound();
+            }
+
+            return Ok(productDetails);
+        }
+
+
 
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAllProducts()
@@ -48,7 +46,7 @@ namespace FinalProject_Back.Controllers
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
-                Response.Headers["Content-Length"] = content.Length.ToString(); 
+                Response.Headers["Content-Length"] = content.Length.ToString();
                 return Content(content, "application/json");
             }
 
@@ -63,30 +61,16 @@ namespace FinalProject_Back.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                return NoContent(); 
+                return NoContent();
             }
 
-            return NotFound(); 
+            return NotFound();
         }
 
-      
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetProductById(string id)
-        {
-            var productResponse = await _client.GetAsync($"https://api.everrest.educata.dev/shop/products/id/{id}");
-            var productDetails = await productResponse.Content.ReadAsStringAsync();
-
-            if (string.IsNullOrEmpty(productDetails))
-            {
-                return NotFound();
-            }
-
-            return Ok(productDetails);
-        }
         [HttpPost("Create")]
         public async Task<IActionResult> CreateProduct(Product product)
         {
-           
+
             if (product == null)
             {
                 return BadRequest("Product is null.");
@@ -94,17 +78,17 @@ namespace FinalProject_Back.Controllers
 
             using var client = new HttpClient();
 
-            
+
             var response = await client.PostAsJsonAsync("https://api.everrest.educata.dev/shop/products", product);
 
             if (response.IsSuccessStatusCode)
             {
-         
+
                 var result = await response.Content.ReadAsStringAsync();
                 return Content(result, "application/json");
             }
 
-            
+
             return StatusCode((int)response.StatusCode, await response.Content.ReadAsStringAsync());
         }
 
@@ -117,4 +101,3 @@ namespace FinalProject_Back.Controllers
 
 
 }
-
