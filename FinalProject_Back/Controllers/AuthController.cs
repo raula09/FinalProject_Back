@@ -69,7 +69,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("verify-email")]
-    public async Task<IActionResult> VerifyEmail(VerifyEmail email)
+    public async Task<IActionResult> VerifyEmail([FromBody] VerifyEmail email)
     {
         if (email == null)
         {

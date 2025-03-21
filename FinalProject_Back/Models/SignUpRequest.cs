@@ -2,12 +2,6 @@
 
 namespace FinalProject_Back.Models
 {
-    public enum Gender
-    {
-        MALE,
-        FEMALE,
-        OTHER
-    }
 
     public class SignUpRequest
     {
@@ -20,7 +14,7 @@ namespace FinalProject_Back.Models
         public string Phone { get; set; }
         public string Zipcode { get; set; }
         public string Avatar { get; set; }
-        public Gender Gender { get; set; }
+        public string Gender { get; set; }
     }
 
 }
