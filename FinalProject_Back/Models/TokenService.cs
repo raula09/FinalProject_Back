@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using FinalProject_Back.Models;
+using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
@@ -48,22 +49,16 @@ namespace FinalProject_Back.Services
             var tokenResponse = JsonSerializer.Deserialize<TokenResponse>(responseData);
 
             _accessToken = tokenResponse.AccessToken;
-            _refreshToken = tokenResponse.RefreshToken; 
+            _refreshToken = tokenResponse.RefreshToken;
 
             return _accessToken;
         }
 
-
+  
         public void SetTokens(string accessToken, string refreshToken)
         {
             _accessToken = accessToken;
             _refreshToken = refreshToken;
         }
-    }
-
-    public class TokenResponse
-    {
-        public string AccessToken { get; set; }
-        public string RefreshToken { get; set; }
     }
 }
