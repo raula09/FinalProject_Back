@@ -16,9 +16,17 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost", builder =>
+        builder.WithOrigins("http://localhost:4200")
+               .AllowAnyMethod()
+               .AllowAnyHeader());
+});
+
 var app = builder.Build();
 
-
+app.UseCors("AllowLocalhost");
 
 if (app.Environment.IsDevelopment())
 {
