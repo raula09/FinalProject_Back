@@ -1,0 +1,21 @@
+﻿# Ignore appsettings.json
+appsettings.json
+
+# Ignore all other environment-specific files (optional)
+appsettings.*.json
+
+# Ignore build and bin folders
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.vspscc
+.vs/
+
+# Ignore logs
+logs/
+
+# Ignore temporary files
+*.tmp
+*.swp

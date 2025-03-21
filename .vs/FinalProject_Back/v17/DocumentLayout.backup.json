@@ -1,0 +1,370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\authhttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\authhttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalProject_Back\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\verifyemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\verifyemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|c:\\users\\raul0\\source\\repos\\finalproject_back\\finalproject_back\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6FD51C38-082B-4809-947E-E312EDECA992}|FinalProject_Back\\FinalProject_Back.csproj|solutionrelative:finalproject_back\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "FinalProject_Back\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAANQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:08:17.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Controllers\\CartController.cs",
+              "RelativeToolTip": "FinalProject_Back\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwBQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T06:46:22.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignIn.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\SignIn.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\SignIn.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\SignIn.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\SignIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:58:06.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignUpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\SignUpRequest.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\SignUpRequest.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\SignUpRequest.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\SignUpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:08:05.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\TokenResponse.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\TokenResponse.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\TokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:39:14.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\TokenService.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\TokenService.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\TokenService.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\TokenService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:35:48.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QRController.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Controllers\\QRController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\QRController.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Controllers\\QRController.cs",
+              "RelativeToolTip": "FinalProject_Back\\Controllers\\QRController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T15:00:19.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Program.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Program.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Program.cs",
+              "RelativeToolTip": "FinalProject_Back\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T18:45:06.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FinalProject_Back\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:15:53.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthHttpClient.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\AuthHttpClient.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\AuthHttpClient.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\AuthHttpClient.cs",
+              "RelativeToolTip": "FinalProject_Back\\AuthHttpClient.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:29:37.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rate.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\Rate.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\Rate.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\Rate.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\Rate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:50:26.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\Product.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:13:07.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\Category.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:15:57.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "FinalProject_Back\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T07:14:51.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\UpdateUserRequest.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:19:15.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\UserResponse.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\UserResponse.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:19:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VerifyEmail.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\VerifyEmail.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\VerifyEmail.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\VerifyEmail.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\VerifyEmail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:58:34.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "FinalProject_Back\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\Models\\Cart.cs",
+              "RelativeToolTip": "FinalProject_Back\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T16:18:39.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\appsettings.json",
+              "RelativeDocumentMoniker": "FinalProject_Back\\appsettings.json",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\appsettings.json",
+              "RelativeToolTip": "FinalProject_Back\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T19:12:23.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\.gitignore",
+              "RelativeDocumentMoniker": "FinalProject_Back\\.gitignore",
+              "ToolTip": "C:\\Users\\raul0\\source\\repos\\FinalProject_Back\\FinalProject_Back\\.gitignore",
+              "RelativeToolTip": "FinalProject_Back\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-14T19:50:05.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
