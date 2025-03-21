@@ -2,9 +2,15 @@
 
 namespace FinalProject_Back.Models
 {
-    public class User
+    public enum Gender
     {
-        public string Id { get; set; }
+        MALE,
+        FEMALE,
+        OTHER
+    }
+
+    public class SignUpRequest
+    {
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
@@ -14,14 +20,7 @@ namespace FinalProject_Back.Models
         public string Phone { get; set; }
         public string Zipcode { get; set; }
         public string Avatar { get; set; }
-        public Gender Gender { get; set; } = Gender.MALE;
-        public string Role { get; set; }
-        public bool Verified { get; set; }
+        public Gender Gender { get; set; }
     }
-    public enum Gender
-    {
-        MALE,
-        FEMALE,
-        OTHER
-    }
+
 }

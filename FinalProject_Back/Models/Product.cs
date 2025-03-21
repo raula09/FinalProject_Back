@@ -8,7 +8,7 @@
         public int Price { get; set; }
         public int Stock { get; set; }
         public List<string> Images { get; set; }
-        public int Category { get; set; }
+        public int PCategory { get; set; }
         public int Warranty { get; set; }
         public string IssueDate { get; set; }
         public string Thumbnail { get; set; }

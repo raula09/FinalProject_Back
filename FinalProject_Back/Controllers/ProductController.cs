@@ -1,36 +1,57 @@
 ﻿using FinalProject_Back.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 [ApiController]
 [Route("api/[controller]")]
 public class ProductController : ControllerBase
 {
+    private readonly HttpClient _httpClient;
     private readonly AuthHttpClient _authHttpClient;
 
-    public ProductController(AuthHttpClient authHttpClient)
+    public ProductController(HttpClient httpClient, AuthHttpClient authHttpClient)
     {
+        _httpClient = httpClient; 
         _authHttpClient = authHttpClient;
     }
+
 
     [HttpGet("GetProductsBy/{id}")]
     public async Task<IActionResult> GetProductById(string id)
     {
-        var response = await _authHttpClient.GetAsync($"shop/products/id/{id}");
+        var response = await _httpClient.GetAsync($"https://api.everrest.educata.dev/shop/products/id/{id}");
 
-        return response.IsSuccessStatusCode
-            ? Ok(await response.Content.ReadAsStringAsync())
-            : NotFound();
+        if (response.IsSuccessStatusCode)
+        {
+          
+            var product = await response.Content.ReadAsStringAsync();
+
+            var formattedJson = JToken.Parse(product).ToString(Newtonsoft.Json.Formatting.Indented);
+
+            
+            return Content(formattedJson, "application/json");
+        }
+        else
+        {
+            return NotFound();
+        }
     }
+
 
     [HttpGet("GetAll")]
     public async Task<IActionResult> GetAllProducts()
     {
-        var response = await _authHttpClient.GetAsync("shop/products/all");
+      
+        var apiUrl = "https://api.everrest.educata.dev/shop/products/all";
+        var response = await _httpClient.GetAsync(apiUrl);
 
         return response.IsSuccessStatusCode
             ? Content(await response.Content.ReadAsStringAsync(), "application/json")
             : NotFound();
     }
+
 
     [HttpDelete("DeleteProduct/{id}")]
     public async Task<IActionResult> DeleteProduct(int id)
@@ -39,6 +60,7 @@ public class ProductController : ControllerBase
 
         return response.IsSuccessStatusCode ? NoContent() : NotFound();
     }
+
 
     [HttpPost("Create")]
     public async Task<IActionResult> CreateProduct(Product product)
