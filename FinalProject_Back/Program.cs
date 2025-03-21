@@ -1,8 +1,8 @@
-﻿
-
+﻿using FinalProject_Back;
 using FinalProject_Back.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 builder.Services.AddControllers();
 builder.Services.AddHttpClient<AuthHttpClient>(client =>
@@ -17,6 +17,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+
 
 if (app.Environment.IsDevelopment())
 {
