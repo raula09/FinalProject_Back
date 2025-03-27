@@ -18,12 +18,23 @@ public class CartController : ControllerBase
     [HttpPost("add-to-cart")]
     public async Task<IActionResult> AddToCart([FromBody] Cart request)
     {
+        var response = await _authHttpClient.PostAsync("shop/cart/product", request);
+
+        return response.IsSuccessStatusCode
+            ? Content(await response.Content.ReadAsStringAsync(), "application/json")
+            : StatusCode((int)response.StatusCode, await response.Content.ReadAsStringAsync());
+    }
+
+    [HttpPatch("update-cart-product")]
+    public async Task<IActionResult> UpdateCart([FromBody] Cart request)
+    {
         var response = await _authHttpClient.PatchAsync("shop/cart/product", request);
 
         return response.IsSuccessStatusCode
             ? Content(await response.Content.ReadAsStringAsync(), "application/json")
             : StatusCode((int)response.StatusCode, await response.Content.ReadAsStringAsync());
     }
+
     [HttpPost("cart-checkout")]
     public async Task<IActionResult> CartCheckout()
     {
